@@ -13,7 +13,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "test": "karma start"
+    "test": "jasmine"
   },
   "eslintConfig": {
     "extends": "react-app"
