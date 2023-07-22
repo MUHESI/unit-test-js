@@ -10,7 +10,7 @@
     "image": "https://cdn.lynda.com/course/533228/533228-636179098122239600-16x9.jpg"
   },
   {
-    "id": 2,
+ "id": "one",
     "title": "React Native Ecosystem and Workflow",
     "category": "native",
     "description": "React Native makes it easy to develop applications and then deploy them natively to multiple mobile platforms.",
