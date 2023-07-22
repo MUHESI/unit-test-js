@@ -9,6 +9,9 @@ describe('Testing data', () => {
     it('should be react', () => {
         expect(courses[0].category).toMatch('Angular')
     })
+    it('expect the each course to have a link', () => {
+        courses.map((item) => (
+            expect(item.link).toBeTruthy()
+        ))
+    })
 })
-
-
