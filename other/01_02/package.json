@@ -12,8 +12,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jasmine",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test": "karma start"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,6 +25,11 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "jasmine": "^5.0.2"
+    "jasmine": "^5.0.2",
+    "jasmine-core": "^5.0.1",
+    "karma": "^6.4.2",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-jasmine-html-reporter": "^2.1.0"
   }
 }
