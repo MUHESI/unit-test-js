@@ -15,3 +15,5 @@ describe('palidrom', () => {
         expect(app.isPaladrom('azerty')).toEqual(false)
     })
 })
+
+// open coverage/lcov-report/index.html

@@ -1,5 +1,7 @@
 #node_modules
 /hello-test/node_modules
+/other/01_02/node_modules
+/other/mocha/node_modules
 
 #Other
 
